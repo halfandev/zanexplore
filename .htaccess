@@ -1,0 +1,25 @@
+RewriteEngine On
+
+# ==========================================
+# REMOVE .PHP EXTENSION
+# ==========================================
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+
+# ==========================================
+# REDIRECT .PHP TO CLEAN URL
+# ==========================================
+
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^(.+?)\.php$ /$1 [R=301,L]
+
+
+# ==========================================
+# OPTIONAL: REMOVE TRAILING SLASH
+# ==========================================
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.+)/$ /$1 [R=301,L]

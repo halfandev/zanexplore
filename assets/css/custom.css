@@ -1,0 +1,154 @@
+/* =================================
+   ZANEXPLORE NAVBAR LOGO
+   ================================= */
+
+.zan-logo {
+    position: absolute;
+    left: 30px;
+    top: 5px;
+
+    width: 140px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.zan-logo img {
+    width: 80px;
+    height: 55px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =================================
+   MOBILE
+   ================================= */
+
+@media (max-width: 767px) {
+
+    .zan-logo {
+        left: 15px;
+        top: 8px;
+
+        width: 100px;
+        height: 50px;
+    }
+
+    .zan-logo img {
+        width: 65px;
+        height: 45px;
+    }
+
+}
+
+/* =========================================
+   ZANEXPLORE PRELOADER
+   ========================================= */
+
+#zan-preloader {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+
+    background: #20aebc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 99999;
+
+    opacity: 1;
+    visibility: visible;
+
+    transition:
+        opacity 0.5s ease,
+        visibility 0.5s ease;
+}
+
+
+/* Loader content */
+
+.zan-loader-content {
+    text-align: center;
+}
+
+
+/* Logo */
+
+.zan-loader-logo {
+    width: 110px;
+    height: 80px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: 0 auto 15px;
+}
+
+
+/* Loading text */
+
+.zan-loading-text {
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    letter-spacing: 1px;
+}
+
+
+/* Animated dots */
+
+.dots::after {
+    content: '';
+
+    animation: zanDots 1.5s infinite;
+}
+
+
+@keyframes zanDots {
+
+    0% {
+        content: '';
+    }
+
+    25% {
+        content: '.';
+    }
+
+    50% {
+        content: '..';
+    }
+
+    75% {
+        content: '...';
+    }
+
+    100% {
+        content: '';
+    }
+
+}
+
+
+/* Hide loader */
+
+#zan-preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+}
