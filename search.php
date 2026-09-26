@@ -1,211 +1,213 @@
 <script>
-
-const tours = [
-
-    {
-        name: "Stone Town City Tour",
-        page: "stone-town",
-        location: "Stone Town",
-        duration: "3 - 4 Hours",
-        description: "Explore the historical streets, markets and famous landmarks of Stone Town.",
-        image: "assets/images/deals-01.jpg"
-    },
+  const tours = [
 
     {
-        name: "Prison Island Tour",
-        page: "prison-island",
-        location: "Prison Island",
-        duration: "Half Day",
-        description: "Visit Prison Island and see the famous giant Aldabra tortoises.",
-        image: "assets/images/deals-02.jpg"
+      name: "Stone Town City Tour",
+      page: "stone-town",
+      // location: "Stone Town, Zanzibar",
+      // duration: "3 - 4 Hours",
+      description: "Discover the rich history and culture of Stone Town as you explore its narrow streets, historic buildings, local markets, ancient architecture and famous landmarks.",
+      image: "assets/images/deals-01.jpg"
     },
 
     {
-        name: "Nakupenda Sandbank Tour",
-        page: "nakupenda",
-        location: "Nakupenda",
-        duration: "Full Day",
-        description: "Enjoy crystal-clear water, swimming, snorkeling and a delicious seafood lunch.",
-        image: "assets/images/deals-03.jpg"
+      name: "Prison Island Tour",
+      page: "prison-island",
+      // location: "Prison Island, Zanzibar",
+      // duration: "Half Day",
+      description: "Escape to Prison Island and discover its fascinating history, beautiful beaches and giant Aldabra tortoises while enjoying swimming and snorkeling in the crystal-clear waters.",
+      image: "assets/images/deals-02.jpg"
     },
 
     {
-        name: "Safari Blue Tour",
-        page: "safari-blue",
-        location: "Fumba",
-        duration: "Full Day",
-        description: "Experience sailing, snorkeling, sandbanks and seafood on the famous Safari Blue tour.",
-        image: "assets/images/deals-04.jpg"
+      name: "Nakupenda Sandbank Tour",
+      page: "nakupenda",
+      // location: "Nakupenda Sandbank, Zanzibar",
+      // duration: "Full Day",
+      description: "Spend an unforgettable day at Nakupenda Sandbank with crystal-clear turquoise waters, swimming, snorkeling, sunbathing and a delicious freshly prepared seafood lunch.",
+      image: "assets/images/deals-03.jpg"
     },
 
     {
-        name: "Mnemba Island Snorkeling",
-        page: "mnemba",
-        location: "Mnemba Island",
-        duration: "Half Day",
-        description: "Discover beautiful coral reefs and enjoy snorkeling around Mnemba Island.",
-        image: "assets/images/deals-01.jpg"
+      name: "Safari Blue Tour",
+      page: "safari-blue",
+      // location: "Fumba, Zanzibar",
+      // duration: "Full Day",
+      description: "Experience the legendary Safari Blue adventure with traditional dhow sailing, beautiful sandbanks, snorkeling, swimming and a delicious seafood feast surrounded by the Indian Ocean.",
+      image: "assets/images/deals-04.jpg"
     },
 
     {
-        name: "Dolphin Tour",
-        page: "dolphin",
-        location: "Kizimkazi",
-        duration: "Half Day",
-        description: "Visit Kizimkazi and experience a memorable dolphin tour.",
-        image: "assets/images/deals-02.jpg"
+      name: "Mnemba Island Snorkeling",
+      page: "mnemba",
+      // location: "Mnemba Island, Zanzibar",
+      // duration: "Half Day",
+      description: "Explore the spectacular waters around Mnemba Island and discover colorful coral reefs, tropical fish and an incredible underwater world perfect for snorkeling.",
+      image: "assets/images/deals-01.jpg"
     },
 
     {
-        name: "Jozani Forest Tour",
-        page: "jozani-forest",
-        location: "Jozani",
-        duration: "Half Day",
-        description: "Explore Jozani Forest and discover Zanzibar's famous red colobus monkeys.",
-        image: "assets/images/deals-03.jpg"
+      name: "Dolphin Tour",
+      page: "dolphin",
+      // location: "Kizimkazi, Zanzibar",
+      // duration: "Half Day",
+      description: "Head to Kizimkazi for an exciting marine adventure where you can search for dolphins, enjoy the beautiful coastline and experience the warm waters of the Indian Ocean.",
+      image: "assets/images/deals-02.jpg"
     },
 
     {
-        name: "Spice Farm Tour",
-        page: "spice-farm",
-        location: "Kizimbani",
-        duration: "Half Day",
-        description: "Discover Zanzibar's spices and learn about the island's spice farming traditions.",
-        image: "assets/images/deals-04.jpg"
+      name: "Jozani Forest Tour",
+      page: "jozani-forest",
+      // location: "Jozani, Zanzibar",
+      // duration: "Half Day",
+      description: "Walk through the beautiful Jozani Forest and discover Zanzibar's unique wildlife, including the famous red colobus monkeys, while exploring the island's natural ecosystem.",
+      image: "assets/images/deals-03.jpg"
     },
 
     {
-        name: "The Rock Restaurant Tour",
-        page: "the-rock",
-        location: "Michamvi",
-        duration: "Half Day",
-        description: "Visit the iconic Rock Restaurant and enjoy the beautiful Michamvi coastline.",
-        image: "assets/images/deals-01.jpg"
+      name: "Spice Farm Tour",
+      page: "spice-farm",
+      // location: "Kizimbani, Zanzibar",
+      // duration: "Half Day",
+      description: "Experience the scents and flavors of Zanzibar on a spice farm tour where you can discover cloves, cinnamon, vanilla, cardamom and other spices while learning about local farming traditions.",
+      image: "assets/images/deals-04.jpg"
     },
 
     {
-        name: "Kuza Cave Tour",
-        page: "kuza-cave",
-        location: "Jambiani",
-        duration: "Half Day",
-        description: "Explore the beautiful Kuza Cave and enjoy the natural surroundings of Jambiani.",
-        image: "assets/images/deals-02.jpg"
+      name: "The Rock Restaurant Tour",
+      page: "the-rock",
+      // location: "Michamvi, Zanzibar",
+      // duration: "Half Day",
+      description: "Visit the iconic Rock Restaurant in Michamvi and enjoy breathtaking ocean views, beautiful coastal scenery and a unique dining experience surrounded by the Indian Ocean.",
+      image: "assets/images/deals-01.jpg"
     },
 
     {
-        name: "Nungwi & Kendwa Tour",
-        page: "nungwi-kendwa",
-        location: "Nungwi",
-        duration: "Full Day",
-        description: "Discover the beautiful beaches of Nungwi and Kendwa in northern Zanzibar.",
-        image: "assets/images/deals-03.jpg"
+      name: "Kuza Cave Tour",
+      page: "kuza-cave",
+      // location: "Jambiani, Zanzibar",
+      // duration: "Half Day",
+      description: "Discover the fascinating Kuza Cave near Jambiani, explore its natural limestone surroundings and enjoy the peaceful atmosphere of one of Zanzibar's hidden treasures.",
+      image: "assets/images/deals-02.jpg"
     },
 
     {
-        name: "Mangrove-forest Tour",
-        page: "mangrove-forest",
-        location: "Kendwa",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Nungwi & Kendwa Beach Tour",
+      page: "nungwi-kendwa",
+      // location: "Nungwi & Kendwa, Zanzibar",
+      // duration: "Full Day",
+      description: "Explore the stunning northern beaches of Zanzibar, relax on the white sands of Nungwi and Kendwa, swim in turquoise waters and enjoy the vibrant coastal atmosphere.",
+      image: "assets/images/deals-03.jpg"
     },
+
     {
-        name: "turtle conservation Tour",
-        page: "turtle-conservation",
-        location: "Kendwa",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Mangrove Forest Tour",
+      page: "mangrove-forest",
+      // location: "Zanzibar",
+      // duration: "Half Day",
+      description: "Explore Zanzibar's peaceful mangrove forests and discover a unique coastal ecosystem while learning about mangrove conservation, marine life and the importance of these natural habitats.",
+      image: "assets/images/deals-04.jpg"
     },
+
     {
-        name: "chumbe island Tour",
-        page: "chumbe-island",
-        location: "chumbe",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Turtle Conservation Tour",
+      page: "turtle-conservation",
+      // location: "Zanzibar",
+      // duration: "Half Day",
+      description: "Learn about Zanzibar's sea turtle conservation efforts and discover how these amazing marine animals are protected while gaining a deeper appreciation for the island's marine environment.",
+      image: "assets/images/deals-04.jpg"
     },
+
     {
-        name: "fredie mecury Tour",
-        page: "fredie-mecury",
-        location: "Fredie-mecury",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Chumbe Island Tour",
+      page: "chumbe-island",
+      // location: "Chumbe Island, Zanzibar",
+      // duration: "Full Day",
+      description: "Discover the protected paradise of Chumbe Island with its beautiful coral reefs, tropical marine life, pristine beaches and fascinating conservation environment.",
+      image: "assets/images/deals-04.jpg"
     },
+
     {
-        name: "darajani-market Tour",
-        page: "darajani-market",
-        location: "Darajani",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Freddie Mercury Tour",
+      page: "freddie-mercury",
+      // location: "Stone Town, Zanzibar",
+      // duration: "2 - 3 Hours",
+      description: "Follow the story of Freddie Mercury in Stone Town and discover the places connected to the legendary Queen singer's early life, Zanzibar heritage and musical journey.",
+      image: "assets/images/deals-04.jpg"
     },
+
     {
-        name: "culture-village Tour",
-        page: "culture-village",
-        location: "Village Tour",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Darajani Market Tour",
+      page: "darajani-market",
+      // location: "Stone Town, Zanzibar",
+      // duration: "2 - 3 Hours",
+      description: "Experience the lively atmosphere of Darajani Market, explore local food and spices, meet local traders and discover the authentic flavors and everyday life of Zanzibar.",
+      image: "assets/images/deals-04.jpg"
     },
+
     {
-        name: "Salaam cave Tour",
-        page: "salaam-cave",
-        location: "Village Tour",
-        duration: "Full Day",
-        description: "Relax and enjoy one of Zanzibar's most beautiful beaches.",
-        image: "assets/images/deals-04.jpg"
+      name: "Village & Culture Tour",
+      page: "culture-village",
+      // location: "Zanzibar Villages",
+      // duration: "Half Day",
+      description: "Experience authentic Zanzibar village life, meet local communities and discover traditional culture, local crafts, food, farming and the everyday lifestyle of the island's people.",
+      image: "assets/images/deals-04.jpg"
+    },
+
+    {
+      name: "Salaam Cave Tour",
+      page: "salaam-cave",
+      // location: "Zanzibar",
+      // duration: "Half Day",
+      description: "Discover the natural beauty and peaceful atmosphere of Salaam Cave, explore its fascinating surroundings and experience another hidden side of Zanzibar away from the busy tourist routes.",
+      image: "assets/images/deals-04.jpg"
     }
-   
+
+  ];
 
 
+  const toursPerPage = 6;
 
-];
+  let currentPage = 1;
 
-
-const toursPerPage = 6;
-
-let currentPage = 1;
-
-let filteredTours = [...tours];
+  let filteredTours = [...tours];
 
 
-// ===============================
-// DISPLAY TOURS
-// ===============================
+  // ===============================
+  // DISPLAY TOURS
+  // ===============================
 
-function displayTours() {
+  function displayTours() {
 
-  const tourList = document.getElementById("tour-list");
+    const tourList = document.getElementById("tour-list");
 
-  tourList.innerHTML = "";
+    tourList.innerHTML = "";
 
-  const start = (currentPage - 1) * toursPerPage;
+    const start = (currentPage - 1) * toursPerPage;
 
-  const end = start + toursPerPage;
+    const end = start + toursPerPage;
 
-  const toursToDisplay = filteredTours.slice(start, end);
+    const toursToDisplay = filteredTours.slice(start, end);
 
 
-  if (toursToDisplay.length === 0) {
+    if (toursToDisplay.length === 0) {
 
-    tourList.innerHTML = `
+      tourList.innerHTML = `
       <div class="col-lg-12 text-center">
         <h4>No tours found.</h4>
         <p>Try searching for another Zanzibar tour.</p>
       </div>
     `;
 
-    updatePagination();
+      updatePagination();
 
-    return;
-  }
+      return;
+    }
 
 
-  toursToDisplay.forEach(tour => {
+    toursToDisplay.forEach(tour => {
 
-    tourList.innerHTML += `
+      tourList.innerHTML += `
 
       <div class="col-lg-6 col-sm-6 mb-4">
 
@@ -232,55 +234,16 @@ function displayTours() {
 
               <div class="content">
 
-                <span class="info">
-                  Zanzibar Tour
-                </span>
+  <h4>${tour.name}</h4>
 
-                <h4>
-                  ${tour.name}
-                </h4>
+  <p>${tour.description}</p>
 
-
-                <div class="row">
-
-                  <div class="col-6">
-
-                    <i class="fa fa-clock"></i>
-
-                    <span class="list">
-                      ${tour.duration}
-                    </span>
-
-                  </div>
-
-
-                  <div class="col-6">
-
-                    <i class="fa fa-map"></i>
-
-                    <span class="list">
-                      ${tour.location}
-                    </span>
-
-                  </div>
-
-                </div>
-
-
-                <p>
-                  ${tour.description}
-                </p>
-
-
-                <div class="tour-buttons">
-
-    <a
-        href="${tour.page}"
-        class="details-btn"
-    >
-        View Tour
-        <i class="fa fa-arrow-right"></i>
+  <div class="tour-buttons">
+    <a href="${tour.page}" class="details-btn">
+      View Tour
+      <i class="fa fa-arrow-right"></i>
     </a>
+  </div>
 
 </div>
 
@@ -296,147 +259,145 @@ function displayTours() {
 
     `;
 
+    });
+
+
+    updatePagination();
+
+  }
+
+
+  // ===============================
+  // PAGINATION
+  // ===============================
+
+  function updatePagination() {
+
+    const totalPages = Math.ceil(
+      filteredTours.length / toursPerPage
+    );
+
+    document.getElementById("pageNumber").textContent =
+      `${currentPage} / ${totalPages || 1}`;
+
+
+    document.getElementById("prevBtn").disabled =
+      currentPage === 1;
+
+
+    document.getElementById("nextBtn").disabled =
+      currentPage >= totalPages;
+
+  }
+
+
+  // ===============================
+  // NEXT BUTTON
+  // ===============================
+
+  document.getElementById("nextBtn").addEventListener("click", function() {
+
+    const totalPages = Math.ceil(
+      filteredTours.length / toursPerPage
+    );
+
+    if (currentPage < totalPages) {
+
+      currentPage++;
+
+      displayTours();
+
+      window.scrollTo({
+        top: document.querySelector(".amazing-deals").offsetTop - 100,
+        behavior: "smooth"
+      });
+
+    }
+
   });
 
 
-  updatePagination();
+  // ===============================
+  // PREVIOUS BUTTON
+  // ===============================
 
-}
+  document.getElementById("prevBtn").addEventListener("click", function() {
 
+    if (currentPage > 1) {
 
-// ===============================
-// PAGINATION
-// ===============================
+      currentPage--;
 
-function updatePagination() {
+      displayTours();
 
-  const totalPages = Math.ceil(
-    filteredTours.length / toursPerPage
-  );
+      window.scrollTo({
+        top: document.querySelector(".amazing-deals").offsetTop - 100,
+        behavior: "smooth"
+      });
 
-  document.getElementById("pageNumber").textContent =
-    `${currentPage} / ${totalPages || 1}`;
+    }
 
-
-  document.getElementById("prevBtn").disabled =
-    currentPage === 1;
-
-
-  document.getElementById("nextBtn").disabled =
-    currentPage >= totalPages;
-
-}
+  });
 
 
-// ===============================
-// NEXT BUTTON
-// ===============================
+  // ===============================
+  // SEARCH
+  // ===============================
 
-document.getElementById("nextBtn").addEventListener("click", function () {
+  document.getElementById("search-form").addEventListener(
+    "submit",
+    function(event) {
 
-  const totalPages = Math.ceil(
-    filteredTours.length / toursPerPage
-  );
+      event.preventDefault();
 
-  if (currentPage < totalPages) {
-
-    currentPage++;
-
-    displayTours();
-
-    window.scrollTo({
-      top: document.querySelector(".amazing-deals").offsetTop - 100,
-      behavior: "smooth"
-    });
-
-  }
-
-});
-
-
-// ===============================
-// PREVIOUS BUTTON
-// ===============================
-
-document.getElementById("prevBtn").addEventListener("click", function () {
-
-  if (currentPage > 1) {
-
-    currentPage--;
-
-    displayTours();
-
-    window.scrollTo({
-      top: document.querySelector(".amazing-deals").offsetTop - 100,
-      behavior: "smooth"
-    });
-
-  }
-
-});
-
-
-// ===============================
-// SEARCH
-// ===============================
-
-document.getElementById("search-form").addEventListener(
-  "submit",
-  function (event) {
-
-    event.preventDefault();
-
-    const searchValue =
-      document
+      const searchValue =
+        document
         .getElementById("searchInput")
         .value
         .toLowerCase()
         .trim();
 
 
-    filteredTours = tours.filter(tour =>
+      filteredTours = tours.filter(tour =>
 
-      tour.name.toLowerCase().includes(searchValue) ||
-
-      tour.location.toLowerCase().includes(searchValue) ||
-
-      tour.description.toLowerCase().includes(searchValue)
-
-    );
+        tour.name.toLowerCase().includes(searchValue) ||
 
 
-    currentPage = 1;
+        tour.description.toLowerCase().includes(searchValue)
 
-    displayTours();
-
-  }
-);
+      );
 
 
-// ===============================
-// CLEAR SEARCH
-// ===============================
+      currentPage = 1;
 
-document.getElementById("clearSearch").addEventListener(
-  "click",
-  function () {
+      displayTours();
 
-    document.getElementById("searchInput").value = "";
-
-    filteredTours = [...tours];
-
-    currentPage = 1;
-
-    displayTours();
-
-  }
-);
+    }
+  );
 
 
-// ===============================
-// INITIAL LOAD
-// ===============================
+  // ===============================
+  // CLEAR SEARCH
+  // ===============================
 
-displayTours();
+  document.getElementById("clearSearch").addEventListener(
+    "click",
+    function() {
 
+      document.getElementById("searchInput").value = "";
+
+      filteredTours = [...tours];
+
+      currentPage = 1;
+
+      displayTours();
+
+    }
+  );
+
+
+  // ===============================
+  // INITIAL LOAD
+  // ===============================
+
+  displayTours();
 </script>

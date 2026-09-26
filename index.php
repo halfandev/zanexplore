@@ -29,9 +29,13 @@
         <div id="top-banner-1" class="banner">
           <div class="banner-inner-wrapper header-text">
             <div class="main-caption">
-              <h2>Discover the beauty, culture, beaches and unforgettable experiences of Zanzibar with ZanExplore Tours.</h2>
+              <h2>Discover unforgettable tours and excursions across Zanzibar.
+                Explore historic Stone Town, beautiful beaches, islands, local culture
+                and hidden gems that make Zanzibar unique.</h2>
               <h1>Zanzibar</h1>
-              <div class="border-button"><a href="tour">Explore Tours</a></div>
+              <div class="border-button">
+                <a href="tour">Explore All Tours</a>
+              </div>
             </div>
             <div class="container">
               <div class="row">
@@ -39,20 +43,23 @@
                   <div class="more-info">
                     <div class="row">
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-user"></i>
-                        <h4><span>Established:</span><br>2020</h4>
+                        <i class="fa fa-map-marker"></i>
+                        <h4><span>Destinations:</span><br>10+</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
                         <i class="fa fa-globe"></i>
-                        <h4><span>Tours:</span><br>20+</em></h4>
+                        <h4><span>Tour Packages:</span><br>20+</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-home"></i>
-                        <h4><span>Destination:</span><br>10+</h4>
+                        <i class="fa fa-star"></i>
+                        <h4><span>Experiences:</span><br>Memorable</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="contact">Book Your Tour</a>
+                          <a href="tour">View All Tours</a>
                         </div>
                       </div>
                     </div>
@@ -65,10 +72,15 @@
         <div id="top-banner-2" class="banner">
           <div class="banner-inner-wrapper header-text">
             <div class="main-caption">
-              <h2>Experience the Beauty of Zanzibar
-                From the historic streets of Stone Town to the crystal-clear waters of Mnemba Island</h2>
-              <h1>Explore Destination</h1>
-              <div class="border-button"><a href="about">Go There</a></div>
+              <h2>
+                Go beyond Zanzibar and experience the breathtaking wildlife and
+                landscapes of Tanzania. Discover unforgettable adventures in
+                Serengeti, Ngorongoro, Tarangire and beyond
+              </h2>
+              <h1>Experience Tanzania</h1>
+              <div class="border-button">
+                <a href="safari">Explore Safaris</a>
+              </div>
             </div>
             <div class="container">
               <div class="row">
@@ -76,20 +88,23 @@
                   <div class="more-info">
                     <div class="row">
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-user"></i>
-                        <h4><span>Established:</span><br>2020</h4>
+                        <i class="fa fa-paw"></i>
+                        <h4><span>Wildlife:</span><br>Adventures</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
                         <i class="fa fa-globe"></i>
-                        <h4><span>Tours:</span><br>20+</em></h4>
+                        <h4><span>Safari Packages:</span><br>10+</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-home"></i>
-                        <h4><span>Destination:</span><br>10+</h4>
+                        <i class="fa fa-mountain"></i>
+                        <h4><span>Destinations:</span><br>5+</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about">Explore More</a>
+                          <a href="safari">View Safaris</a>
                         </div>
                       </div>
                     </div>
@@ -102,10 +117,16 @@
         <div id="top-banner-3" class="banner">
           <div class="banner-inner-wrapper header-text">
             <div class="main-caption">
-              <h2>Unforgettable Tours & Adventures
-                Dolphin tours, Safari Blue, Jozani Forest, Spice Tours, Prison Island and more.</h2>
-              <h1>View Our Tours</h1>
-              <div class="border-button"><a href="about">Go There</a></div>
+              <h2>
+                Make your Zanzibar holiday unforgettable with exciting ocean adventures,
+                water activities, cultural experiences and unique things to do around the island.
+              </h2>
+
+              <h1>Adventure Awaits</h1>
+
+              <div class="border-button">
+                <a href="activity">Explore Activities</a>
+              </div>
             </div>
             <div class="container">
               <div class="row">
@@ -113,20 +134,23 @@
                   <div class="more-info">
                     <div class="row">
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-user"></i>
-                        <h4><span>Established:</span><br>2020</h4>
+                        <i class="fa fa-water"></i>
+                        <h4><span>Ocean:</span><br>Adventures</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-globe"></i>
-                        <h4><span>Tours:</span><br>20+</em></h4>
+                        <i class="fa fa-futbol-o"></i>
+                        <h4><span>Activities:</span><br>20+</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-home"></i>
-                        <h4><span>Destination:</span><br>10+</h4>
+                        <i class="fa fa-star"></i>
+                        <h4><span>Experiences:</span><br>Unique</h4>
                       </div>
+
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about">Explore More</a>
+                          <a href="activity">View Activities</a>
                         </div>
                       </div>
                     </div>
@@ -138,39 +162,69 @@
         </div>
         <div id="top-banner-4" class="banner">
           <div class="banner-inner-wrapper header-text">
+
             <div class="main-caption">
-              <h2>Your Zanzibar Adventure Starts Here
-                Let Abe Tours help you create memorable experiences in Zanzibar</h2>
-              <h1>Book Now</h1>
-              <div class="border-button"><a href="about">Go There</a></div>
+              <h2>
+                Ready to explore Zanzibar and Tanzania?
+                Choose your favourite tour, safari or activity and let ZanExplore
+                help you create an unforgettable travel experience.
+              </h2>
+
+              <h1>Plan Your Adventure</h1>
+
+              <div class="border-button">
+                <a href="reservation">Book Your Trip</a>
+              </div>
             </div>
+
             <div class="container">
               <div class="row">
                 <div class="col-lg-12">
+
                   <div class="more-info">
                     <div class="row">
+
+                      <!-- Reservation Type -->
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-user"></i>
-                        <h4><span>Established:</span><br>2020</h4>
+                        <i class="fa fa-calendar"></i>
+                        <h4>
+                          <span>Reservations:</span><br>
+                          Easy & Fast
+                        </h4>
                       </div>
+
+                      <!-- Services -->
                       <div class="col-lg-3 col-sm-6 col-6">
                         <i class="fa fa-globe"></i>
-                        <h4><span>Tours:</span><br>20+</em></h4>
+                        <h4>
+                          <span>Services:</span><br>
+                          Tours & Safaris
+                        </h4>
                       </div>
+
+                      <!-- Support -->
                       <div class="col-lg-3 col-sm-6 col-6">
-                        <i class="fa fa-home"></i>
-                        <h4><span>Destination:</span><br>10+</h4>
+                        <i class="fa fa-phone"></i>
+                        <h4>
+                          <span>Support:</span><br>
+                          Travel Assistance
+                        </h4>
                       </div>
+
+                      <!-- Button -->
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about">Explore More</a>
+                          <a href="reservation">Make Reservation</a>
                         </div>
                       </div>
+
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -191,8 +245,13 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="section-heading">
-            <h2>Explore Zanzibar With Abe Tours</h2>
-            <p>Discover some of the most beautiful places and unforgettable experiences Zanzibar has to offer.</p>
+            <h2>Explore Zanzibar with ZanExplore Tours</h2>
+            <p style="text-align: justify;">
+              Discover the beauty, culture, history, and unforgettable experiences of Zanzibar with ZanExplore Tours.
+              From the vibrant streets of Stone Town and the tropical beaches of Zanzibar to exciting ocean adventures
+              and cultural experiences,
+              we help you explore the island in a memorable and comfortable way.
+            </p>
           </div>
         </div>
       </div>
@@ -205,23 +264,24 @@
                   <div class="row">
                     <div class="col-lg-4 col-sm-5">
                       <div class="image">
-                        <img src="assets/images/country-01.jpg" alt="">
+                        <img src="assets/images/tour_main.jpg" alt="">
                       </div>
                     </div>
                     <div class="col-lg-8 col-sm-7">
                       <div class="right-content">
-                        <h4>TOUR</h4>
-                        <span>Explore Our Tours</span>
+                        <h4>TOURS</h4>
+                        <span>Explore Zanzibar Your Way</span>
                         <div class="main-button">
-                          <a href="tour">View Tours</a>
+                          <a href="tour">Explore All Tours</a>
                         </div>
-                        <p>
-                          Discover the best tours and excursions across Zanzibar.
-                        </p>
+                        <p style="text-align: justify;">
+                          Discover unforgettable tours and excursions across Zanzibar. Explore historic Stone Town,
+                          visit beautiful islands and beaches, experience local culture,
+                          and uncover the hidden gems that make Zanzibar unique. </p>
                         <ul class="info">
-                          <li><i class="fa fa-map-marker"></i> Zanzibar, Tanzania</li>
-                          <li><i class="fa fa-calendar"></i> Since 2020</li>
-                          <li><i class="fa fa-star"></i> Memorable Experiences</li>
+                          <li><i class="fa fa-map-marker"></i> Zanzibar Experiences</li>
+                          <li><i class="fa fa-calendar"></i> Cultural & Island Tours</li>
+                          <li><i class="fa fa-star"></i>Unforgettable Adventures</li>
                         </ul>
 
                       </div>
@@ -234,24 +294,24 @@
                   <div class="row">
                     <div class="col-lg-4 col-sm-5">
                       <div class="image">
-                        <img src="assets/images/country-02.jpg" alt="">
+                        <img src="assets/images/safari_main.jpg" alt="">
                       </div>
                     </div>
                     <div class="col-lg-8 col-sm-7">
                       <div class="right-content">
                         <h4>SAFARIS</h4>
-                        <span>Explore safari's</span>
+                        <span>Experience the Wild Side of Tanzania</span>
                         <div class="main-button">
-                          <a href="about">Explore More</a>
+                          <a href="safari">Explore Safari Packages</a>
                         </div>
-                        <p>
-                          Travel beyond Zanzibar and discover the unforgettable wildlife and landscapes of Tanzania.
-                          From the plains of Serengeti to the heights of Mount Kilimanjaro,
-                          we can help you plan your adventure </p>
+                        <p style="text-align: justify;">
+                          Go beyond Zanzibar and discover the breathtaking wildlife and landscapes of Tanzania.
+                          Experience unforgettable safari adventures through world-famous national parks,
+                          witness incredible wildlife, and explore the beauty of the African wilderness </p>
                         <ul class="info">
-                          <li><i class="fa fa-map-marker"></i> Tanzania</li>
-                          <li><i class="fa fa-paw"></i> Wildlife Safaris</li>
-                          <li><i class="fa fa-mountain"></i> Kilimanjaro</li>
+                          <li><i class="fa fa-map-marker"></i> Wildlife Safaris</li>
+                          <li><i class="fa fa-paw"></i> Serengeti Adventures</li>
+                          <li><i class="fa fa-mountain"></i>Ngorongoro & Kilimanjaro</li>
                         </ul>
 
                       </div>
@@ -264,23 +324,24 @@
                   <div class="row">
                     <div class="col-lg-4 col-sm-5">
                       <div class="image">
-                        <img src="assets/images/country-03.jpg" alt="">
+                        <img src="assets/images/activity_main.jpg" alt="">
                       </div>
                     </div>
                     <div class="col-lg-8 col-sm-7">
                       <div class="right-content">
                         <h4>ACTIVITY</h4>
-                        <span>Adventure Awaits</span>
+                        <span> Adventure Awaits in Zanzibar</span>
                         <div class="main-button">
-                          <a href="about">Explore Activities</a>
+                          <a href="activity">Explore Activities</a>
                         </div>
-                        <p>
-                          Enjoy exciting water activities, ocean adventures and unique experiences.
-                        </p>
+                        <p style="text-align: justify;">
+                          Make your Zanzibar experience even more exciting with unforgettable activities on land and in the ocean.
+                          Enjoy water adventures, marine experiences, cultural activities,
+                          and unique experiences designed to make your holiday truly memorable </p>
                         <ul class="info">
-                          <li><i class="fa fa-user"></i> 67.41 Mil People</li>
-                          <li><i class="fa fa-globe"></i> 551.500 km2</li>
-                          <li><i class="fa fa-home"></i> $425.600</li>
+                          <li><i class="fa fa-user"></i> Ocean Adventures</li>
+                          <li><i class="fa fa-globe"></i> Water Activities</li>
+                          <li><i class="fa fa-home"></i> Cultural issue</li>
                         </ul>
 
                       </div>
@@ -288,15 +349,7 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-lg-12">
-                <ul class="page-numbers">
-                  <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li class="active"><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-                </ul>
-              </div> -->
+
             </div>
           </div>
         </div>
@@ -343,8 +396,6 @@
   <?php
   include "footer.php"
   ?>
-
-
 
 </body>
 
