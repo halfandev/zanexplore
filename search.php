@@ -7,7 +7,7 @@
       // location: "Stone Town, Zanzibar",
       // duration: "3 - 4 Hours",
       description: "Discover the rich history and culture of Stone Town as you explore its narrow streets, historic buildings, local markets, ancient architecture and famous landmarks.",
-      image: "assets/images/deals-01.jpg"
+      image: "assets/images/stone.png"
     },
 
     {
@@ -16,7 +16,7 @@
       // location: "Prison Island, Zanzibar",
       // duration: "Half Day",
       description: "Escape to Prison Island and discover its fascinating history, beautiful beaches and giant Aldabra tortoises while enjoying swimming and snorkeling in the crystal-clear waters.",
-      image: "assets/images/deals-02.jpg"
+      image: "assets/images/prison.png"
     },
 
     {

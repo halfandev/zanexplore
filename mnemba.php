@@ -1,420 +1,343 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
-    <meta charset="UTF-8">
+```
+<meta charset="UTF-8">
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Stone Town City Tour | Zanzibar Tours</title>
+<title>Mnemba Island Tour Zanzibar | Zanzibar Tours</title>
 
-    <meta name="description"
-        content="Explore Stone Town Zanzibar with our guided Stone Town City Tour. Discover historic buildings, markets, cultural landmarks and the rich history of Zanzibar.">
+<meta name="description"
+    content="Explore Mnemba Island Zanzibar with our unforgettable Mnemba Island Tour. Enjoy snorkeling, swimming, beautiful coral reefs, marine life and the crystal-clear waters of the Indian Ocean.">
 
-    <meta name="keywords"
-        content="Stone Town Tour, Stone Town Zanzibar, Zanzibar City Tour, Zanzibar Tours, Stone Town City Tour">
+<meta name="keywords"
+    content="Mnemba Island Tour, Mnemba Island Zanzibar, Mnemba Snorkeling, Zanzibar Snorkeling Tour, Mnemba Atoll, Zanzibar Tours, Mnemba Beach">
 
-    <link rel="canonical"
-        href="https://www.abe-tour.com/tour-list/stone-town">
+<link rel="canonical"
+    href="https://www.abe-tour.com/tour-list/mnemba">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    <?php
-    include "bootstrap.php";
-    ?>
+<?php
+include "bootstrap.php";
+?>
+```
 
 </head>
 
-
 <body>
 
-    <?php
+```
+<?php
 
-    $tourName = "mnemba Tour";
+$tourName = "Mnemba Island Tour";
 
-    ?>
-
-    <!-- ========================================= -->
-    <!-- PRELOADER -->
-    <!-- ========================================= -->
+?>
 
 
 
 
-    <!-- ========================================= -->
-    <!-- HEADER -->
-    <!-- ========================================= -->
 
-    <?php
-    include "header.php";
-    ?>
+<!-- ========================================= -->
+<!-- HEADER -->
+<!-- ========================================= -->
+
+<?php
+include "header.php";
+?>
 
 
-    <!-- ========================================= -->
-    <!-- TOUR HERO -->
-    <!-- ========================================= -->
+<!-- ========================================= -->
+<!-- TOUR HERO -->
+<!-- ========================================= -->
 
-    <div class="second-page-heading">
+<div class="second-page-heading">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row">
+        <div class="row">
 
-                <div class="col-lg-12">
+            <div class="col-lg-12">
 
-                    <h4>Zanzibar Cultural Experience</h4>
+                <h4>Zanzibar Ocean &amp; Snorkeling Experience</h4>
 
-                    <h2>Stone Town City Tour</h2>
+                <h2>Mnemba Island Tour</h2>
+
+                <p>
+                    Discover the breathtaking beauty of Mnemba Island
+                    and its surrounding waters. Enjoy snorkeling,
+                    swimming and an unforgettable marine experience
+                    in the crystal-clear waters of Zanzibar.
+                </p>
+
+                <div class="main-button">
+
+                    <a href="#booking">
+                        Book Mnemba Island Tour
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ========================================= -->
+<!-- TOUR QUICK INFORMATION -->
+<!-- ========================================= -->
+
+<div class="more-info reservation-info">
+
+    <div class="container">
+
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6">
+
+                <div class="info-item">
+
+                    <i class="fa fa-clock"></i>
+
+                    <h4>Duration</h4>
+
+                    <span>Half Day</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6">
+
+                <div class="info-item">
+
+                    <i class="fa fa-map-marker"></i>
+
+                    <h4>Location</h4>
+
+                    <span>Mnemba Atoll, Zanzibar</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6">
+
+                <div class="info-item">
+
+                    <i class="fa fa-users"></i>
+
+                    <h4>Tour Type</h4>
+
+                    <span>Private / Group</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-sm-6">
+
+                <div class="info-item">
+
+                    <i class="fa fa-language"></i>
+
+                    <h4>Languages</h4>
+
+                    <span>English / Swahili</span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ========================================= -->
+<!-- TOUR CONTENT -->
+<!-- ========================================= -->
+
+<section class="tour-details-section">
+
+    <div class="container">
+
+        <div class="row">
+
+
+            <!-- ================================= -->
+            <!-- FULL WIDTH TOUR CONTENT -->
+            <!-- ================================= -->
+
+            <div class="col-lg-12">
+
+
+                <!-- ================================= -->
+                <!-- MAIN TOUR IMAGE -->
+                <!-- ================================= -->
+
+                <div class="tour-main-image">
+
+                    <img
+                        src="assets/images/mnemba.jpg"
+                        alt="Mnemba Island Tour Zanzibar"
+                        class="img-fluid"
+                        style="
+                        width:100%;
+                        border-radius:23px;
+                    ">
+
+                </div>
+
+
+                <!-- ================================= -->
+                <!-- DESCRIPTION -->
+                <!-- ================================= -->
+
+                <div class="tour-description mt-5">
+
+                    <h3>Discover the Beauty of Mnemba Island</h3>
 
                     <p>
-                        Discover the history, culture and unique architecture
-                        of Zanzibar's famous Stone Town. Walk through narrow
-                        historic streets, visit important landmarks and
-                        experience the heart of Zanzibar.
+                        Mnemba Island is one of Zanzibar's most famous
+                        marine destinations, known for its beautiful
+                        turquoise waters, coral reefs and diverse
+                        marine life.
                     </p>
 
-                    <div class="main-button">
+                    <p>
+                        Our Mnemba Island Tour gives you the opportunity
+                        to explore the spectacular underwater world
+                        surrounding Mnemba Atoll. Enjoy snorkeling in
+                        clear tropical waters and discover colourful
+                        fish and beautiful coral reefs.
+                    </p>
 
-                        <a href="#booking">
-                            Book Stone Town Tour
-                        </a>
+                    <p>
+                        The tour is perfect for visitors who want to
+                        experience Zanzibar's natural beauty away from
+                        the busy mainland. Relax on the boat, swim in
+                        the warm Indian Ocean and enjoy the peaceful
+                        tropical surroundings.
+                    </p>
 
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- ========================================= -->
-    <!-- TOUR QUICK INFORMATION -->
-    <!-- ========================================= -->
-
-    <div class="more-info reservation-info">
-
-        <div class="container">
-
-            <div class="row">
-
-
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="info-item">
-
-                        <i class="fa fa-clock"></i>
-
-                        <h4>Duration</h4>
-
-                        <span>3 - 4 Hours</span>
-
-                    </div>
+                    <p>
+                        With its beautiful marine environment and
+                        crystal-clear waters, Mnemba offers an
+                        unforgettable experience for families, friends,
+                        couples and anyone who loves the ocean.
+                    </p>
 
                 </div>
-
-
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="info-item">
-
-                        <i class="fa fa-map-marker"></i>
-
-                        <h4>Location</h4>
-
-                        <span>Stone Town, Zanzibar</span>
-
-                    </div>
-
-                </div>
-
-
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="info-item">
-
-                        <i class="fa fa-users"></i>
-
-                        <h4>Tour Type</h4>
-
-                        <span>Private / Group</span>
-
-                    </div>
-
-                </div>
-
-
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="info-item">
-
-                        <i class="fa fa-language"></i>
-
-                        <h4>Languages</h4>
-
-                        <span>English / Swahili</span>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- ========================================= -->
-    <!-- TOUR CONTENT -->
-    <!-- ========================================= -->
-
-    <section class="tour-details-section">
-
-        <div class="container">
-
-            <div class="row">
 
 
                 <!-- ================================= -->
-                <!-- FULL WIDTH TOUR CONTENT -->
+                <!-- TOUR HIGHLIGHTS -->
                 <!-- ================================= -->
 
-                <div class="col-lg-12">
+                <div class="tour-highlights mt-5">
+
+                    <h3>Tour Highlights</h3>
+
+                    <div class="row mt-4">
 
 
-                    <!-- ================================= -->
-                    <!-- MAIN TOUR IMAGE -->
-                    <!-- ================================= -->
+                        <div class="col-lg-4 col-md-6 mb-4">
 
-                    <div class="tour-main-image">
+                            <div class="highlight-item">
 
-                        <img
-                            src="assets/images/stone-town-1.jpg"
-                            alt="Stone Town Zanzibar City Tour"
-                            class="img-fluid"
-                            style="
-                            width:100%;
-                            border-radius:23px;
-                        ">
+                                <i class="fa fa-check-circle"></i>
 
-                    </div>
-
-
-                    <!-- ================================= -->
-                    <!-- DESCRIPTION -->
-                    <!-- ================================= -->
-
-                    <div class="tour-description mt-5">
-
-                        <h3>Discover the Heart of Zanzibar</h3>
-
-                        <p>
-                            Stone Town is the historic heart of Zanzibar and
-                            a fascinating destination where history, culture
-                            and architecture come together.
-                        </p>
-
-                        <p>
-                            Explore its narrow streets, historic buildings,
-                            traditional markets and beautiful waterfront while
-                            discovering the stories that shaped Zanzibar.
-                        </p>
-
-                        <p>
-                            Our Stone Town City Tour gives you the opportunity
-                            to experience the town with a knowledgeable local
-                            guide. Learn about Zanzibar's rich heritage while
-                            visiting some of its most important landmarks and
-                            cultural sites.
-                        </p>
-
-                    </div>
-
-
-                    <!-- ================================= -->
-                    <!-- TOUR HIGHLIGHTS -->
-                    <!-- ================================= -->
-
-                    <div class="tour-highlights mt-5">
-
-                        <h3>Tour Highlights</h3>
-
-                        <div class="row mt-4">
-
-
-                            <div class="col-lg-4 col-md-6 mb-4">
-
-                                <div class="highlight-item">
-
-                                    <i class="fa fa-check-circle"></i>
-
-                                    Explore historic Stone Town streets
-
-                                </div>
+                                Explore the beautiful Mnemba Atoll
 
                             </div>
-
-
-                            <div class="col-lg-4 col-md-6 mb-4">
-
-                                <div class="highlight-item">
-
-                                    <i class="fa fa-check-circle"></i>
-
-                                    Visit the famous Darajani Market
-
-                                </div>
-
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-6 mb-4">
-
-                                <div class="highlight-item">
-
-                                    <i class="fa fa-check-circle"></i>
-
-                                    Discover Zanzibar's cultural heritage
-
-                                </div>
-
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-6 mb-4">
-
-                                <div class="highlight-item">
-
-                                    <i class="fa fa-check-circle"></i>
-
-                                    See the famous Zanzibar doors
-
-                                </div>
-
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-6 mb-4">
-
-                                <div class="highlight-item">
-
-                                    <i class="fa fa-check-circle"></i>
-
-                                    Visit the Old Fort
-
-                                </div>
-
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-6 mb-4">
-
-                                <div class="highlight-item">
-
-                                    <i class="fa fa-check-circle"></i>
-
-                                    Learn from a local guide
-
-                                </div>
-
-                            </div>
-
 
                         </div>
 
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+
+                            <div class="highlight-item">
+
+                                <i class="fa fa-check-circle"></i>
+
+                                Enjoy snorkeling in crystal-clear waters
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+
+                            <div class="highlight-item">
+
+                                <i class="fa fa-check-circle"></i>
+
+                                Discover colourful tropical fish
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+
+                            <div class="highlight-item">
+
+                                <i class="fa fa-check-circle"></i>
+
+                                Explore beautiful coral reefs
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+
+                            <div class="highlight-item">
+
+                                <i class="fa fa-check-circle"></i>
+
+                                Swim in the warm Indian Ocean
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+
+                            <div class="highlight-item">
+
+                                <i class="fa fa-check-circle"></i>
+
+                                Enjoy stunning Zanzibar ocean views
+
+                            </div>
+
+                        </div>
+
+
                     </div>
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ========================================= -->
-    <!-- GALLERY -->
-    <!-- ========================================= -->
-
-    <section class="tour-gallery">
-
-        <div class="container">
-
-            <div class="row">
-
-
-                <div class="col-lg-12">
-
-                    <div class="section-heading">
-
-                        <h2>Stone Town Gallery</h2>
-
-                        <p>
-                            Discover the beauty, culture and history of Stone Town.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- IMAGE 1 -->
-
-                <div class="col-lg-3 col-md-6 mb-4">
-
-                    <img
-                        src="assets/images/deals-01.jpg"
-                        alt="Stone Town Zanzibar"
-                        class="img-fluid"
-                        style="border-radius:20px;">
-
-                </div>
-
-
-                <!-- IMAGE 2 -->
-
-                <div class="col-lg-3 col-md-6 mb-4">
-
-                    <img
-                        src="assets/images/deals-01.jpg"
-                        alt="Stone Town historic streets"
-                        class="img-fluid"
-                        style="border-radius:20px;">
-
-                </div>
-
-
-                <!-- IMAGE 3 -->
-
-                <div class="col-lg-3 col-md-6 mb-4">
-
-                    <img
-                        src="assets/images/deals-01.jpg"
-                        alt="Stone Town Zanzibar architecture"
-                        class="img-fluid"
-                        style="border-radius:20px;">
-
-                </div>
-
-
-                <!-- IMAGE 4 -->
-
-                <div class="col-lg-3 col-md-6 mb-4">
-
-                    <img
-                        src="assets/images/deals-01.jpg"
-                        alt="Stone Town Zanzibar market"
-                        class="img-fluid"
-                        style="border-radius:20px;">
 
                 </div>
 
@@ -423,28 +346,116 @@
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- ========================================= -->
-    <!-- BOOKING FORM -->
-    <!-- ========================================= -->
+<!-- ========================================= -->
+<!-- GALLERY -->
+<!-- ========================================= -->
 
-    <?php
-    include "booking-form.php";
-    ?>
+<section class="tour-gallery">
+
+    <div class="container">
+
+        <div class="row">
 
 
-    <!-- ========================================= -->
-    <!-- FOOTER -->
-    <!-- ========================================= -->
+            <div class="col-lg-12">
 
-    <?php
+                <div class="section-heading">
 
-    include "footer.php";
+                    <h2>Mnemba Island Gallery</h2>
 
-    ?>
+                    <p>
+                        Discover the crystal-clear waters, marine life,
+                        coral reefs and beautiful ocean scenery of Mnemba.
+                    </p>
 
+                </div>
+
+            </div>
+
+
+            <!-- IMAGE 1 -->
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <img
+                    src="assets/images/mnemba-1.jpg"
+                    alt="Mnemba Island Zanzibar"
+                    class="img-fluid"
+                    style="border-radius:20px;">
+
+            </div>
+
+
+            <!-- IMAGE 2 -->
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <img
+                    src="assets/images/mnemba-2.jpg"
+                    alt="Mnemba snorkeling Zanzibar"
+                    class="img-fluid"
+                    style="border-radius:20px;">
+
+            </div>
+
+
+            <!-- IMAGE 3 -->
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <img
+                    src="assets/images/mnemba-3.jpg"
+                    alt="Mnemba coral reef Zanzibar"
+                    class="img-fluid"
+                    style="border-radius:20px;">
+
+            </div>
+
+
+            <!-- IMAGE 4 -->
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <img
+                    src="assets/images/mnemba-4.jpg"
+                    alt="Mnemba Island boat tour Zanzibar"
+                    class="img-fluid"
+                    style="border-radius:20px;">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- BOOKING FORM -->
+<!-- ========================================= -->
+
+<?php
+include "booking-form.php";
+?>
+
+
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<?php
+
+include "footer.php";
+
+?>
+```
 
 </body>
 

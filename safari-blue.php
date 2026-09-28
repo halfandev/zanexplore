@@ -1,348 +1,167 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
+    
     <meta charset="UTF-8">
 
     <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Stone Town City Tour | Zanzibar Tours</title>
+    <title>Safari Blue Tour Zanzibar | Zanzibar Tours</title>
 
     <meta name="description"
-          content="Explore Stone Town Zanzibar with our guided Stone Town City Tour. Discover historic buildings, markets, cultural landmarks and the rich history of Zanzibar.">
+        content="Experience the famous Safari Blue Tour in Zanzibar. Explore Menai Bay, enjoy snorkeling, swimming, sandbanks, beautiful islands and a delicious seafood lunch.">
 
     <meta name="keywords"
-          content="Stone Town Tour, Stone Town Zanzibar, Zanzibar City Tour, Zanzibar Tours, Stone Town City Tour">
+        content="Safari Blue Zanzibar, Safari Blue Tour, Zanzibar Safari Blue, Menai Bay Tour, Zanzibar Boat Tour, Zanzibar Tours, Zanzibar Snorkeling">
 
     <link rel="canonical"
-          href="https://www.abe-tour.com/tour-list/stone-town">
+        href="https://www.abe-tour.com/tour-list/safari-blue">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet">
+        rel="stylesheet">
 
     <?php
-        include "bootstrap.php";
+    include "bootstrap.php";
     ?>
+    
 
 </head>
 
-
 <body>
 
+    <?php
 
-<?php
+    $tourName = "Safari Blue Tour";
 
-$tourName = "safari-blue Tour";
+    ?>
 
-?>
-<!-- ========================================= -->
-<!-- PRELOADER -->
-<!-- ========================================= -->
+    
 
-<div id="js-preloader" class="js-preloader">
+    <!-- ========================================= -->
 
-    <div class="preloader-inner">
+    <!-- HEADER -->
 
-        <span class="dot"></span>
+    <!-- ========================================= -->
 
-        <div class="dots">
-
-            <span></span>
-            <span></span>
-            <span></span>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- ========================================= -->
-<!-- HEADER -->
-<!-- ========================================= -->
-
-<?php
+    <?php
     include "header.php";
-?>
+    ?>
 
+    <!-- ========================================= -->
 
-<!-- ========================================= -->
-<!-- TOUR HERO -->
-<!-- ========================================= -->
+    <!-- TOUR HERO -->
 
-<div class="second-page-heading">
+    <!-- ========================================= -->
 
-    <div class="container">
+    <div class="second-page-heading">
 
-        <div class="row">
+        ```
+        <div class="container">
 
-            <div class="col-lg-12">
+            <div class="row">
 
-                <h4>Zanzibar Cultural Experience</h4>
+                <div class="col-lg-12">
 
-                <h2>Stone Town City Tour</h2>
+                    <h4>Zanzibar Ocean &amp; Marine Experience</h4>
 
-                <p>
-                    Discover the history, culture and unique architecture
-                    of Zanzibar's famous Stone Town. Walk through narrow
-                    historic streets, visit important landmarks and
-                    experience the heart of Zanzibar.
-                </p>
+                    <h2>Safari Blue Tour</h2>
 
-                <div class="main-button">
+                    <p>
+                        Discover the beauty of Zanzibar's Menai Bay on an
+                        unforgettable Safari Blue adventure. Enjoy a traditional
+                        boat trip, snorkeling, swimming, sandbanks, beautiful
+                        ocean views and a delicious seafood lunch.
+                    </p>
 
-                    <a href="#booking">
-                        Book Stone Town Tour
-                    </a>
+                    <div class="main-button">
+
+                        <a href="#booking">
+                            Book Safari Blue Tour
+                        </a>
+
+                    </div>
 
                 </div>
 
             </div>
 
         </div>
+        ```
 
     </div>
 
-</div>
+    <!-- ========================================= -->
+
+    <!-- TOUR QUICK INFORMATION -->
+
+    <!-- ========================================= -->
+
+    <div class="more-info reservation-info">
+
+        ```
+        <div class="container">
+
+            <div class="row">
 
 
-<!-- ========================================= -->
-<!-- TOUR QUICK INFORMATION -->
-<!-- ========================================= -->
+                <div class="col-lg-3 col-sm-6">
 
-<div class="more-info reservation-info">
+                    <div class="info-item">
 
-    <div class="container">
+                        <i class="fa fa-clock"></i>
 
-        <div class="row">
+                        <h4>Duration</h4>
 
+                        <span>Full Day</span>
 
-            <div class="col-lg-3 col-sm-6">
-
-                <div class="info-item">
-
-                    <i class="fa fa-clock"></i>
-
-                    <h4>Duration</h4>
-
-                    <span>3 - 4 Hours</span>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-3 col-sm-6">
-
-                <div class="info-item">
-
-                    <i class="fa fa-map-marker"></i>
-
-                    <h4>Location</h4>
-
-                    <span>Stone Town, Zanzibar</span>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-3 col-sm-6">
-
-                <div class="info-item">
-
-                    <i class="fa fa-users"></i>
-
-                    <h4>Tour Type</h4>
-
-                    <span>Private / Group</span>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-3 col-sm-6">
-
-                <div class="info-item">
-
-                    <i class="fa fa-language"></i>
-
-                    <h4>Languages</h4>
-
-                    <span>English / Swahili</span>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- ========================================= -->
-<!-- TOUR CONTENT -->
-<!-- ========================================= -->
-
-<section class="tour-details-section">
-
-    <div class="container">
-
-        <div class="row">
-
-
-            <!-- ================================= -->
-            <!-- FULL WIDTH TOUR CONTENT -->
-            <!-- ================================= -->
-
-            <div class="col-lg-12">
-
-
-                <!-- ================================= -->
-                <!-- MAIN TOUR IMAGE -->
-                <!-- ================================= -->
-
-                <div class="tour-main-image">
-
-                    <img
-                        src="assets/images/stone-town-1.jpg"
-                        alt="Stone Town Zanzibar City Tour"
-                        class="img-fluid"
-                        style="
-                            width:100%;
-                            border-radius:23px;
-                        "
-                    >
+                    </div>
 
                 </div>
 
 
-                <!-- ================================= -->
-                <!-- DESCRIPTION -->
-                <!-- ================================= -->
+                <div class="col-lg-3 col-sm-6">
 
-                <div class="tour-description mt-5">
+                    <div class="info-item">
 
-                    <h3>Discover the Heart of Zanzibar</h3>
+                        <i class="fa fa-map-marker"></i>
 
-                    <p>
-                        Stone Town is the historic heart of Zanzibar and
-                        a fascinating destination where history, culture
-                        and architecture come together.
-                    </p>
+                        <h4>Location</h4>
 
-                    <p>
-                        Explore its narrow streets, historic buildings,
-                        traditional markets and beautiful waterfront while
-                        discovering the stories that shaped Zanzibar.
-                    </p>
+                        <span>Menai Bay, Zanzibar</span>
 
-                    <p>
-                        Our Stone Town City Tour gives you the opportunity
-                        to experience the town with a knowledgeable local
-                        guide. Learn about Zanzibar's rich heritage while
-                        visiting some of its most important landmarks and
-                        cultural sites.
-                    </p>
+                    </div>
 
                 </div>
 
 
-                <!-- ================================= -->
-                <!-- TOUR HIGHLIGHTS -->
-                <!-- ================================= -->
+                <div class="col-lg-3 col-sm-6">
 
-                <div class="tour-highlights mt-5">
+                    <div class="info-item">
 
-                    <h3>Tour Highlights</h3>
+                        <i class="fa fa-users"></i>
 
-                    <div class="row mt-4">
+                        <h4>Tour Type</h4>
 
+                        <span>Private / Group</span>
 
-                        <div class="col-lg-4 col-md-6 mb-4">
+                    </div>
 
-                            <div class="highlight-item">
-
-                                <i class="fa fa-check-circle"></i>
-
-                                Explore historic Stone Town streets
-
-                            </div>
-
-                        </div>
+                </div>
 
 
-                        <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-3 col-sm-6">
 
-                            <div class="highlight-item">
+                    <div class="info-item">
 
-                                <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-language"></i>
 
-                                Visit the famous Darajani Market
+                        <h4>Languages</h4>
 
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-
-                            <div class="highlight-item">
-
-                                <i class="fa fa-check-circle"></i>
-
-                                Discover Zanzibar's cultural heritage
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-
-                            <div class="highlight-item">
-
-                                <i class="fa fa-check-circle"></i>
-
-                                See the famous Zanzibar doors
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-
-                            <div class="highlight-item">
-
-                                <i class="fa fa-check-circle"></i>
-
-                                Visit the Old Fort
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-4 col-md-6 mb-4">
-
-                            <div class="highlight-item">
-
-                                <i class="fa fa-check-circle"></i>
-
-                                Learn from a local guide
-
-                            </div>
-
-                        </div>
-
+                        <span>English / Swahili</span>
 
                     </div>
 
@@ -352,120 +171,313 @@ $tourName = "safari-blue Tour";
             </div>
 
         </div>
+        ```
 
     </div>
 
-</section>
+    <!-- ========================================= -->
+
+    <!-- TOUR CONTENT -->
+
+    <!-- ========================================= -->
+
+    <section class="tour-details-section">
+
+        ```
+        <div class="container">
+
+            <div class="row">
 
 
-<!-- ========================================= -->
-<!-- GALLERY -->
-<!-- ========================================= -->
+                <!-- ================================= -->
+                <!-- FULL WIDTH TOUR CONTENT -->
+                <!-- ================================= -->
 
-<section class="tour-gallery">
-
-    <div class="container">
-
-        <div class="row">
+                <div class="col-lg-12">
 
 
-            <div class="col-lg-12">
+                    <!-- ================================= -->
+                    <!-- MAIN TOUR IMAGE -->
+                    <!-- ================================= -->
 
-                <div class="section-heading">
+                    <div class="tour-main-image">
 
-                    <h2>Stone Town Gallery</h2>
+                        <img
+                            src="assets/images/safari-blue.jpg"
+                            alt="Safari Blue Tour Zanzibar"
+                            class="img-fluid"
+                            style="
+                        width:100%;
+                        border-radius:23px;
+                    ">
 
-                    <p>
-                        Discover the beauty, culture and history of Stone Town.
-                    </p>
+                    </div>
+
+
+                    <!-- ================================= -->
+                    <!-- DESCRIPTION -->
+                    <!-- ================================= -->
+
+                    <div class="tour-description mt-5">
+
+                        <h3>Discover the Beauty of Safari Blue Zanzibar</h3>
+
+                        <p>
+                            Safari Blue is one of Zanzibar's most popular
+                            ocean experiences, taking you into the beautiful
+                            waters of Menai Bay Conservation Area. The tour
+                            combines boat adventures, swimming, snorkeling,
+                            sandbanks and breathtaking views of the Indian Ocean.
+                        </p>
+
+                        <p>
+                            Your adventure begins with a traditional Zanzibar
+                            dhow boat ride across the turquoise waters. Along
+                            the way, you will have opportunities to swim,
+                            snorkel and discover the beautiful marine environment
+                            around Menai Bay.
+                        </p>
+
+                        <p>
+                            One of the highlights of the experience is visiting
+                            beautiful sandbanks where you can relax, take photos
+                            and enjoy the peaceful surroundings of the Indian
+                            Ocean.
+                        </p>
+
+                        <p>
+                            The Safari Blue experience also includes a delicious
+                            seafood lunch featuring fresh local seafood and
+                            tropical fruits, giving you the chance to enjoy
+                            Zanzibar's coastal flavours while surrounded by
+                            beautiful ocean scenery.
+                        </p>
+
+                        <p>
+                            Whether you are travelling with family, friends or
+                            as a couple, Safari Blue offers a memorable way to
+                            experience Zanzibar's ocean, nature and coastal
+                            culture.
+                        </p>
+
+                    </div>
+
+
+                    <!-- ================================= -->
+                    <!-- TOUR HIGHLIGHTS -->
+                    <!-- ================================= -->
+
+                    <div class="tour-highlights mt-5">
+
+                        <h3>Tour Highlights</h3>
+
+                        <div class="row mt-4">
+
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="highlight-item">
+
+                                    <i class="fa fa-check-circle"></i>
+
+                                    Explore the beautiful Menai Bay
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="highlight-item">
+
+                                    <i class="fa fa-check-circle"></i>
+
+                                    Enjoy a traditional Zanzibar dhow boat ride
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="highlight-item">
+
+                                    <i class="fa fa-check-circle"></i>
+
+                                    Snorkel and discover marine life
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="highlight-item">
+
+                                    <i class="fa fa-check-circle"></i>
+
+                                    Swim in crystal-clear Indian Ocean waters
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="highlight-item">
+
+                                    <i class="fa fa-check-circle"></i>
+
+                                    Relax on beautiful natural sandbanks
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="highlight-item">
+
+                                    <i class="fa fa-check-circle"></i>
+
+                                    Enjoy a fresh seafood lunch
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
 
                 </div>
 
             </div>
 
+        </div>
+        ```
 
-            <!-- IMAGE 1 -->
+    </section>
 
-            <div class="col-lg-3 col-md-6 mb-4">
+    <!-- ========================================= -->
 
-                <img
-                    src="assets/images/deals-01.jpg"
-                    alt="Stone Town Zanzibar"
-                    class="img-fluid"
-                    style="border-radius:20px;"
-                >
+    <!-- GALLERY -->
+
+    <!-- ========================================= -->
+
+    <section class="tour-gallery">
+
+        ```
+        <div class="container">
+
+            <div class="row">
+
+
+                <div class="col-lg-12">
+
+                    <div class="section-heading">
+
+                        <h2>Safari Blue Gallery</h2>
+
+                        <p>
+                            Discover the ocean, sandbanks, marine life and
+                            unforgettable moments from the Safari Blue experience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- IMAGE 1 -->
+
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <img
+                        src="assets/images/safari-blue-1.jpg"
+                        alt="Safari Blue boat Zanzibar"
+                        class="img-fluid"
+                        style="border-radius:20px;">
+
+                </div>
+
+
+                <!-- IMAGE 2 -->
+
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <img
+                        src="assets/images/safari-blue-2.jpg"
+                        alt="Safari Blue snorkeling Zanzibar"
+                        class="img-fluid"
+                        style="border-radius:20px;">
+
+                </div>
+
+
+                <!-- IMAGE 3 -->
+
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <img
+                        src="assets/images/safari-blue-3.jpg"
+                        alt="Safari Blue sandbank Zanzibar"
+                        class="img-fluid"
+                        style="border-radius:20px;">
+
+                </div>
+
+
+                <!-- IMAGE 4 -->
+
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <img
+                        src="assets/images/safari-blue-4.jpg"
+                        alt="Safari Blue seafood lunch Zanzibar"
+                        class="img-fluid"
+                        style="border-radius:20px;">
+
+                </div>
+
 
             </div>
-
-
-            <!-- IMAGE 2 -->
-
-            <div class="col-lg-3 col-md-6 mb-4">
-
-                <img
-                    src="assets/images/deals-01.jpg"
-                    alt="Stone Town historic streets"
-                    class="img-fluid"
-                    style="border-radius:20px;"
-                >
-
-            </div>
-
-
-            <!-- IMAGE 3 -->
-
-            <div class="col-lg-3 col-md-6 mb-4">
-
-                <img
-                    src="assets/images/deals-01.jpg"
-                    alt="Stone Town Zanzibar architecture"
-                    class="img-fluid"
-                    style="border-radius:20px;"
-                >
-
-            </div>
-
-
-            <!-- IMAGE 4 -->
-
-            <div class="col-lg-3 col-md-6 mb-4">
-
-                <img
-                    src="assets/images/deals-01.jpg"
-                    alt="Stone Town Zanzibar market"
-                    class="img-fluid"
-                    style="border-radius:20px;"
-                >
-
-            </div>
-
 
         </div>
+        ```
 
-    </div>
+    </section>
 
-</section>
+    <!-- ========================================= -->
 
+    <!-- BOOKING FORM -->
 
-<!-- ========================================= -->
-<!-- BOOKING FORM -->
-<!-- ========================================= -->
+    <!-- ========================================= -->
 
-<?php
-include "booking-form.php";
-?>
+    <?php
 
+    include "booking-form.php";
 
-<!-- ========================================= -->
-<!-- FOOTER -->
-<!-- ========================================= -->
+    ?>
 
-<?php
+    <!-- ========================================= -->
+
+    <!-- FOOTER -->
+
+    <!-- ========================================= -->
+
+    <?php
 
     include "footer.php";
 
-?>
-
+    ?>
 
 </body>
 
